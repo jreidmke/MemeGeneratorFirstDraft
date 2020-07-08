@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+label {
+  font-size: 30px;
+}
+
+input {
+  height: 30px;
+  font-size: 20px;
+}
+
+button {
+  height: 30px;
+  font-size: 22px;
+}
+
+.imgBox {
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    margin: auto;
+    width: 100%;
+  }
+
+.top {
+    position: absolute;
+    font-size: 40px;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    word-wrap: break-word;
+  }
+
+.bottom {
+    position: absolute;
+    font-size: 40px;
+    bottom: 1px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    word-wrap: break-word;
+}
+
+.meme {
+  position: relative;
+}
+
+.memeImg {
+  max-width: 800px;
+  max-height: 800px;
+  border-radius: 10%;
+}
